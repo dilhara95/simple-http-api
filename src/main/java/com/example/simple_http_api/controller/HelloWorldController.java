@@ -1,10 +1,12 @@
 package com.example.simple_http_api.controller;
 
-
 import com.example.simple_http_api.dto.ApiResponse;
 import com.example.simple_http_api.dto.ErrorResponse;
 import com.example.simple_http_api.service.HelloWorldService;
-import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.simple_api.dto.ApiResponse;
+import com.example.simple_api.dto.ErrorResponse;
+import com.example.simple_api.service.HelloWorldService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,6 @@
 package com.example.simple_http_api.service;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HelloWorldTestService {

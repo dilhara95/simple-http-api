@@ -1,5 +1,6 @@
 package com.example.simple_http_api.dto;
 
+
 public class ApiResponse {
     private final String message;
 
